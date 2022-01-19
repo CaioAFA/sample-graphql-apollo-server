@@ -1,0 +1,23 @@
+type Author {
+  id: Int
+  name: String
+  born_country: String
+  musics: [Music]
+}
+
+input CreateAuthorInput {
+  name: String!
+  born_country: String!
+  musics_ids: [Int]
+}
+
+input UpdateAuthorInput {
+  name: String
+  born_country: String
+  musics_ids: [Int]
+}
+
+input AuthorFilter {
+  id: Int
+  name: String
+}

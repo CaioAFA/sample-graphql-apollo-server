@@ -1,0 +1,5 @@
+#import User from 'User.graphql'
+#import Author from 'Author.graphql'
+#import Music from 'Music.graphql'
+#import Query from 'Query.graphql'
+#import Mutation from 'Mutation.graphql'

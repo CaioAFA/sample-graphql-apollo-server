@@ -1,0 +1,29 @@
+type User {
+    id: Int
+    login: String!
+    is_admin: Boolean!
+    token: String
+}
+
+input UserLoginInput {
+    login: String!
+    password: String!
+}
+
+input CreateUserInput {
+    login: String!
+    password: String!
+    is_admin: Boolean!
+}
+
+input UpdateUserInput {
+    login: String
+    password: String
+    is_admin: Boolean
+}
+
+# We'll use this filter to get a user at a Query or at a Edit mutation
+input UserFilter {
+    id: Int
+    login: String
+}

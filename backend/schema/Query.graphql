@@ -1,0 +1,15 @@
+# API Entrypoints
+type Query {
+    # User
+    login(data: UserLoginInput!): User
+    users: [User]
+    user(filter: UserFilter!): User
+
+    # Author
+    authors: [Author]
+    author(filter: AuthorFilter!): Author
+
+    # Music
+    musics: [Music]
+    music(filter: MusicFilter!): Music
+}

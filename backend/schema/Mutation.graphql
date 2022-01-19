@@ -1,0 +1,16 @@
+type Mutation {
+    # User mutations
+    createUser(data: CreateUserInput!): User
+    deleteUser(filter: UserFilter!): User
+    updateUser(filter: UserFilter!, data: UpdateUserInput!): User
+
+    # Author mutations
+    createAuthor(data: CreateAuthorInput!): Author
+    deleteAuthor(filter: AuthorFilter!): Author
+    updateAuthor(filter: AuthorFilter!, data: UpdateAuthorInput!): Author
+
+    # Music mutations
+    createMusic(data: CreateMusicInput!): Music
+    deleteMusic(filter: MusicFilter!): Music
+    updateMusic(filter: MusicFilter!, data: UpdateMusicInput!): Music
+}

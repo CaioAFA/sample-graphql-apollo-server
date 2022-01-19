@@ -1,0 +1,28 @@
+type Music {
+  id: Int
+  name: String
+  year: String
+  genre: String
+  singer: String
+  authors: [Author]
+}
+
+input CreateMusicInput {
+  name: String!
+  year: String!
+  genre: String!
+  singer: String!
+  authors_ids: [Int]
+}
+
+input UpdateMusicInput {
+  name: String
+  year: String
+  genre: String
+  singer: String
+  authors_ids: [Int]
+}
+
+input MusicFilter {
+  id: Int
+}
