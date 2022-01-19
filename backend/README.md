@@ -42,6 +42,23 @@
     To execute the project as a logged user: <b>npm run startSimulatingLoggedUser</b>
     <br/>
   </li>
+
+  <li>
+    Login credentials:
+    <br/>
+    Admin user:
+    <br/>
+    <b>User</b>: admin
+    <br/>
+    <b>Password</b>: admin
+    <br/>
+    <br/>
+    Normal user:
+    <br/>
+    <b>User</b>: user
+    <br/>
+    <b>Password</b>: user
+  </li>
 </ol>
 
 ## Files and directories structure
