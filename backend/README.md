@@ -2,7 +2,7 @@
 
 ## Technologies
 - NodeJS + Apollo Server for Backend
-- Token JWT to authenticate and save session data
+- JWT to authenticate and save session data
 - MySQL database with Query Builder (Knex), password encryptation and DB transactions
 
 ## NPM packages
